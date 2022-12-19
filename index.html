@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <!-- Google Fonts - Inter -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        
+        <link rel='stylesheet' href='index.css'>
+    </head>
+    <body>
+        <div class='col-container'>
+            <div class='selector-container'>
+                <input type='color' id='color-picker' class='color-picker'>
+                <select id='mode' name='mode' class='color-mode'>
+                    <option value='monochrome'>Monochrome</option>
+                    <option value='monochrome-dark'>Monochrome-dark</option>
+                    <option value='monochrome-light'>Monochrome-light</option>
+                    <option value='analogic'>Analogic</option>
+                    <option value='complement'>Complement</option>
+                    <option value='analogic-complement'>Analogic-complement</option>
+                    <option value='triad'>Triad</option>
+                    <option value='quad'>Quad</option>
+                </select>
+                <button id='get-scheme-btn' class='get-scheme-btn'>Get color scheme</button>
+            </div>
+            <main>
+            </main>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
